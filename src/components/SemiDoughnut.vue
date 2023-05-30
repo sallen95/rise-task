@@ -2,7 +2,7 @@
   <div class="semi-doughnut">
     <div class="credit-graph">
       <p class="credit-text">Total Credits</p>
-      <p class="credit-number">25.85</p>
+      <p class="credit-number">{{ totalCredits }}</p>
       <div class="graph" style="--fill: #a590c0" />
       <div class="graph" style="--fill: #785c9c" :style="transformStyle" />
     </div>

@@ -11,10 +11,6 @@ export default defineComponent({
   components: {
     SemiDoughnut,
   },
-  data: () => ({
-    earned: 21.65,
-    totalCredits: 25.85,
-  }),
 });
 </script>
 
